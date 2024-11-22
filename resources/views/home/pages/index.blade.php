@@ -1,5 +1,5 @@
 @extends('admin.layout.app')
 @section('title', 'Dashboard')
 @section('content')
-    dsdasdsa
+    home
 @endsection
