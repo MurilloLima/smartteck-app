@@ -49,7 +49,9 @@
         </div>
 
         @include('admin.layout.nav')
-        @yield('content')
+        <div class="content-wrapper">
+            @yield('content')
+        </div>
         @include('admin.layout.footer')
 
     </div>
