@@ -29,10 +29,10 @@
                     Faça login para iniciar sua sessão
                 </p>
 
-                <form action="{{ route('dashboard') }}" method="get">
+                <form action="{{ route('login') }}" method="POST">
                     @csrf
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
@@ -63,13 +63,7 @@
                         <!-- /.col -->
                     </div>
                 </form>
-
-
                 <!-- /.social-auth-links -->
-
-                <p class="mb-1">
-                    <a href="forgot-password.html">Esqueci minha senha</a>
-                </p>
                 @if (Route::has('password.request'))
                     <a class="mb-1 underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                         href="{{ route('password.request') }}">
