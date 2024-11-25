@@ -19,20 +19,32 @@
     </section>
     <section class="content">
         <div class="container-fluid">
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-sm-3 text-center">
+                    <a href="" class="btn btn-default">Indicadores do dia/mês</a>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <a href="" class="btn btn-default">Indicadores de acordos</a>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <a href="" class="btn btn-default">Indicadores de negociações</a>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <a href="" class="btn btn-default">Indicadores gerais</a>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-warning">
-                        <span class="info-box-icon"><i class="far fa-bookmark"></i></span>
-
+                    <div class="info-box bg-info">
                         <div class="info-box-content">
-                            <span class="info-box-text">Bookmarks</span>
-                            <span class="info-box-number">41,410</span>
+                            <span class="info-box-text">Acordos recuperadas hoje </span>
+                            <span class="info-box-number">R$ 0,00 </span>
 
                             <div class="progress">
                                 <div class="progress-bar" style="width: 70%"></div>
                             </div>
                             <span class="progress-description">
-                                70% Increase in 30 Days
+                                Ver pagamentos
                             </span>
                         </div>
                         <!-- /.info-box-content -->
@@ -41,18 +53,16 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-warning">
-                        <span class="info-box-icon"><i class="far fa-thumbs-up"></i></span>
-
+                    <div class="info-box bg-info">
                         <div class="info-box-content">
-                            <span class="info-box-text">Likes</span>
-                            <span class="info-box-number">41,410</span>
+                            <span class="info-box-text">Acordos que vencem hoje </span>
+                            <span class="info-box-number">R$ 0,00 </span>
 
                             <div class="progress">
                                 <div class="progress-bar" style="width: 70%"></div>
                             </div>
                             <span class="progress-description">
-                                70% Increase in 30 Days
+                                Ver dívidas
                             </span>
                         </div>
                         <!-- /.info-box-content -->
@@ -61,18 +71,16 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-warning">
-                        <span class="info-box-icon"><i class="far fa-calendar-alt"></i></span>
-
+                    <div class="info-box bg-info">
                         <div class="info-box-content">
-                            <span class="info-box-text">Events</span>
-                            <span class="info-box-number">41,410</span>
+                            <span class="info-box-text">Credores cadastrados </span>
+                            <span class="info-box-number">0</span>
 
                             <div class="progress">
                                 <div class="progress-bar" style="width: 70%"></div>
                             </div>
                             <span class="progress-description">
-                                70% Increase in 30 Days
+                                Ver dívidas
                             </span>
                         </div>
                         <!-- /.info-box-content -->
@@ -81,18 +89,16 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-warning">
-                        <span class="info-box-icon"><i class="fas fa-comments"></i></span>
-
+                    <div class="info-box bg-info">
                         <div class="info-box-content">
-                            <span class="info-box-text">Comments</span>
-                            <span class="info-box-number">41,410</span>
+                            <span class="info-box-text">Devedores cadastrados</span>
+                            <span class="info-box-number">0 </span>
 
                             <div class="progress">
                                 <div class="progress-bar" style="width: 70%"></div>
                             </div>
                             <span class="progress-description">
-                                70% Increase in 30 Days
+                                Ver devedores
                             </span>
                         </div>
                         <!-- /.info-box-content -->
@@ -100,6 +106,15 @@
                     <!-- /.info-box -->
                 </div>
                 <!-- /.col -->
+
+            </div>
+            {{-- end row --}}
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div>
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

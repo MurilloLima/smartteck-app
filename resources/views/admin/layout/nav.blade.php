@@ -37,7 +37,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Configuração de email</p>
                             </a>
@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">
+                            <a href="{{ route('credor.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Credores</p>
                             </a>
@@ -102,7 +102,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ route('user.index') }}" class="nav-link">
                         <i class="nav-icon far fa-user"></i>
                         <p>User</p>
                     </a>
