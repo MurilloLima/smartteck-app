@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\admin;
 
-use App\Models\Credor;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CredorController extends Controller
+class FinanceiroController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('admin.pages.credor.index');
+        return view('admin.pages.financeiro.index');
     }
 
     /**
@@ -34,7 +34,7 @@ class CredorController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Credor $credor)
+    public function show(string $id)
     {
         //
     }
@@ -42,7 +42,7 @@ class CredorController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Credor $credor)
+    public function edit(string $id)
     {
         //
     }
@@ -50,7 +50,7 @@ class CredorController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Credor $credor)
+    public function update(Request $request, string $id)
     {
         //
     }
@@ -58,7 +58,7 @@ class CredorController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Credor $credor)
+    public function destroy(string $id)
     {
         //
     }

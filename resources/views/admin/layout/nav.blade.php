@@ -82,7 +82,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="{{ route('financeiro.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-dollar-sign"></i>
                         <p>
                             Financeiro
@@ -91,12 +91,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ route('suporte.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Suporte
-                            {{-- <i class="fas fa-angle-left right"></i> --}}
-                            {{-- <span class="badge badge-info right">6</span> --}}
                         </p>
                     </a>
                 </li>
