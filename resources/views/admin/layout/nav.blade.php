@@ -26,93 +26,90 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+                   with font-awesome or any other icon font library -->
+
                 <li class="nav-item menu-open">
                     <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <i class="nav-icon fas fa-tree"></i>
                         <p>
                             Cadastros
-                            <i class="right fas fa-angle-left"></i>
+                            <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Configuração de email</p>
+                                <p>Configuração de e-mail</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./index2.html" class="nav-link">
+                            <a href="../UI/icons.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Consultores</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('credor.index') }}" class="nav-link">
+                            <a href="../UI/buttons.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Credores</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
+                            <a href="../UI/sliders.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Devedores</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
+                            <a href="../UI/modals.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Mala direta</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
+                            <a href="../UI/navbar.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Notificações</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
+                            <a href="../UI/timeline.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Automáticas</p>
                             </a>
                         </li>
+
                     </ul>
                 </li>
-
                 <li class="nav-item">
-                    <a href="{{ route('financeiro.index') }}" class="nav-link">
-                        <i class="nav-icon fas fa-dollar-sign"></i>
+                    <a href="#" class="nav-link">
+                        <i class="fa fa-usd nav-icon" aria-hidden="true"></i>
                         <p>
                             Financeiro
-                            {{-- <span class="right badge badge-danger">New</span> --}}
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('suporte.index') }}" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                    <a href="#" class="nav-link">
+                        <i class="fa fa-list nav-icon"></i>
                         <p>
                             Suporte
+                            {{-- <i class="fas fa-angle-left right"></i> --}}
                         </p>
                     </a>
                 </li>
-
                 <li class="nav-item">
-                    <a href="{{ route('user.index') }}" class="nav-link">
-                        <i class="nav-icon far fa-user"></i>
-                        <p>Usuário</p>
+                    <a href="" class="nav-link">
+                        <i class="far fa-user nav-icon"></i>
+                        <p>User</p>
                     </a>
                 </li>
-
                 <li class="nav-item">
-                    <form action="{{ route('logout') }}" method="post">
-                        @csrf
-                        <i class="nav-icon far fa-close"></i>
-
-                        <button type="submit">Sair</button>
-                    </form>
+                    <a href="" class="nav-link">
+                        <i class="fa fa-sign-out nav-icon" aria-hidden="true"></i>
+                        <p>Sair</p>
+                    </a>
                 </li>
             </ul>
         </nav>
