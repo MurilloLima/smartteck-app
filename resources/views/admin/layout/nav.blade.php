@@ -102,7 +102,14 @@
                 <li class="nav-item">
                     <a href="{{ route('user.index') }}" class="nav-link">
                         <i class="nav-icon far fa-user"></i>
-                        <p>User</p>
+                        <p>Usuário</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('user.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-close"></i>
+                        <p>Sair</p>
                     </a>
                 </li>
             </ul>
