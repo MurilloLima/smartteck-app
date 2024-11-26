@@ -107,10 +107,12 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('user.index') }}" class="nav-link">
+                    <form action="{{ route('logout') }}" method="post">
+                        @csrf
                         <i class="nav-icon far fa-close"></i>
-                        <p>Sair</p>
-                    </a>
+
+                        <button type="submit">Sair</button>
+                    </form>
                 </li>
             </ul>
         </nav>
