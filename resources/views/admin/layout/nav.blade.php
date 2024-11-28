@@ -16,7 +16,7 @@
             </div>
             <div class="info">
                 <a href="#" class="d-block">
-                    name
+                    {{ Auth::user()->name }}
                 </a>
             </div>
         </div>
@@ -106,6 +106,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
+
                     <a href="" class="nav-link">
                         <i class="fa fa-sign-out nav-icon" aria-hidden="true"></i>
                         <p>Sair</p>
