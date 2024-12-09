@@ -33,17 +33,13 @@
                 </div> --}}
             </div>
             <div class="card-body">
-                Check the Header part you can find Legacy vesion of style.
-                <br>
-                Start creating your amazing application!
+                <form action="" method="post">
+                    <label for="">*Nome do administrador:</label><br>
+                    <input type="text" name="" class=""><br>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </form>
             </div>
-            <!-- /.card-body -->
-            <div class="card-footer">
-                Footer
-            </div>
-            <!-- /.card-footer-->
         </div>
         <!-- /.card -->
-
     </section>
 @endsection

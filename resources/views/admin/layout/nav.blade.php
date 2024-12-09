@@ -30,7 +30,7 @@
 
                 <li class="nav-item menu-open">
                     <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-tree"></i>
+                        <i class="nav-icon fas fa-file"></i>
                         <p>
                             Cadastros
                             <i class="fas fa-angle-left right"></i>
@@ -100,18 +100,29 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
-                        <i class="far fa-user nav-icon"></i>
-                        <p>User</p>
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            User
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
                     </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ route('user.index') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Perfil</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../UI/icons.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Sair</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="nav-item">
 
-                    <a href="" class="nav-link">
-                        <i class="fa fa-sign-out nav-icon" aria-hidden="true"></i>
-                        <p>Sair</p>
-                    </a>
-                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
