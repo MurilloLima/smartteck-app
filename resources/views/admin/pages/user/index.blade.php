@@ -48,7 +48,7 @@
                                 </li>
                             </ul>
 
-                            <a href="#" class="btn btn-primary"><b>Salvar</b></a>
+                            <a href="#" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary"><b>Salvar</b></a>
                         </div>
                         <!-- /.card-body -->
                     </div>

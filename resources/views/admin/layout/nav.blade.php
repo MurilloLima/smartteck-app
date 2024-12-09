@@ -62,19 +62,19 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/modals.html" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Mala direta</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/navbar.html" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Notificações</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/timeline.html" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Automáticas</p>
                             </a>
@@ -115,7 +115,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/icons.html" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Sair</p>
                             </a>
