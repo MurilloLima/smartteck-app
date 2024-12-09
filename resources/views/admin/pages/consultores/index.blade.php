@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-primary">Pesquisar</button>
+                            <button type="submit" style="background-color: #D2670E; border-color: #D2670E" class="btn btn-primary">Pesquisar</button>
                         </div>
                         <!-- /.card-body -->
                     </div>

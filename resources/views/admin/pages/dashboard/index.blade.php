@@ -35,7 +35,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-info">
+                    <div class="info-box bg-default">
                         <div class="info-box-content">
                             <span class="info-box-text">Acordos recuperadas hoje </span>
                             <span class="info-box-number">R$ 0,00 </span>
@@ -53,7 +53,7 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-info">
+                    <div class="info-box bg-default">
                         <div class="info-box-content">
                             <span class="info-box-text">Acordos que vencem hoje </span>
                             <span class="info-box-number">R$ 0,00 </span>
@@ -71,7 +71,7 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-info">
+                    <div class="info-box bg-default">
                         <div class="info-box-content">
                             <span class="info-box-text">Credores cadastrados </span>
                             <span class="info-box-number">0</span>
@@ -89,7 +89,7 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="info-box bg-info">
+                    <div class="info-box bg-default">
                         <div class="info-box-content">
                             <span class="info-box-text">Devedores cadastrados</span>
                             <span class="info-box-number">0 </span>

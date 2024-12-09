@@ -29,7 +29,7 @@
                    with font-awesome or any other icon font library -->
 
                 <li class="nav-item menu-open">
-                    <a href="#" class="nav-link active">
+                    <a href="#" style="background-color: #D2670E" class="nav-link active">
                         <i class="nav-icon fas fa-file"></i>
                         <p>
                             Cadastros
