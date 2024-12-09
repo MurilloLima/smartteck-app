@@ -44,19 +44,19 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/icons.html" class="nav-link">
+                            <a href="{{ route('consultores.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Consultores</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/buttons.html" class="nav-link">
+                            <a href="{{ route('credor.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Credores</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/sliders.html" class="nav-link">
+                            <a href="{{ route('devedores.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Devedores</p>
                             </a>

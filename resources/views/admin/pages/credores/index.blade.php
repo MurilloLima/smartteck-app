@@ -1,5 +1,5 @@
 @extends('admin.layout.app')
-@section('title', 'Dashboard')
+@section('title', 'Credores')
 
 @section('content')
     <section class="content-header">
