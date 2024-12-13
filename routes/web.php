@@ -19,7 +19,7 @@ Route::get('/dashboard', function () {
 
 Route::middleware('auth')->group(function () {
     //consultores
-    Route::get('/consultores', [ConsultoresController::class, 'index'])->name('consultores.index');
+    Route::get('/consultor', [ConsultoresController::class, 'index'])->name('consultores.index');
     //devedores
     Route::get('/devedores', [DevedoresController::class, 'index'])->name('devedores.index');
     // financeiro

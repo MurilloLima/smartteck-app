@@ -21,60 +21,102 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="card card-primary">
-                        <div class="card-header" style="background-color: #D2670E">
-                            <h3 class="card-title">Credores</h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                Painel de busca
+                            </h3>
                         </div>
                         <!-- /.card-header -->
-                        <!-- form start -->
-                        <form>
-                            <div class="card-body">
-                                <div class="form-group">
-                                    <label for="">Nome</label>
-                                    <input type="text" class="form-control"
-                                        placeholder=" Defina o nome do seu credor (carteira de cobrança). Esté é só um identificador, pois a razão social será definida depois.">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Nome:</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Nome">
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <label for="">E-mail</label>
-                                    <input type="email" class="form-control"
-                                        placeholder="E-mail do responsável pelo credor para recebimento de mensagens do sistema. ">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Telefone</label>
-                                    <input type="text" class="form-control"
-                                        placeholder="Telefone do responsável pelo credor para questões legais (compliance). ">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Cidade</label>
-                                    <input type="text" class="form-control"
-                                        placeholder=" Nome da cidade da empresa deste credor para questões legais (compliance). ">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Meio de pagamento</label>
-
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Login</label>
-                                    <input type="text" class="form-control" id="exampleInputPassword1"
-                                        placeholder="Este login dará acesso a uma área restrita desta carteira.">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Senha</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">confirmar senha</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Situação:</label>
+                                        <select class="custom-select rounded-0" id="exampleSelectRounded0">
+                                            <option>Ativo</option>
+                                            <option>Inativo</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- /.card-body -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Cidade:</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Login:</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                        placeholder="">
+                                    </div>
+                                </div>
 
-                            <div class="card-footer">
-                                <button type="submit" class="btn btn-default">Enviar</button>
                             </div>
-                        </form>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-default">Pesquisar</button>
+                        </div>
+                        <!-- /.card-body -->
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Nome</th>
+                                        <th>cidade</th>
+                                        <th>CPF/CNPJ 1</th>
+                                        <th>Login</th>
+                                        <th>Vis.</th>
+                                        <th>Alt.</th>
+                                        <th>Del.</th>
+                                        <th>Inat.</th>
+                                        <th>Div.</th>
+                                        <th>Imp. Dev</th>
+                                        <th>Imp. Dev</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>1.</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
             </div>
         </div>
     </section>

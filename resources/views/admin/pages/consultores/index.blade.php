@@ -1,21 +1,6 @@
 @extends('admin.layout.app')
 @section('title', 'Consultores')
 @section('content')
-    <section class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1>Consultores</h1>
-                </div>
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Consultores</li>
-                    </ol>
-                </div>
-            </div>
-        </div><!-- /.container-fluid -->
-    </section>
     <section class="content">
         <div class="container-fluid">
             <div class="row">
@@ -67,15 +52,13 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <button type="submit" style="background-color: #D2670E; border-color: #D2670E" class="btn btn-primary">Pesquisar</button>
+                            <button type="submit" class="btn btn-default">Pesquisar</button>
                         </div>
                         <!-- /.card-body -->
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
@@ -86,14 +69,16 @@
                                     <tr>
                                         <th style="width: 10px">#</th>
                                         <th>Nome</th>
-                                        <th>Grupo</th>
-                                        <th>Lista 1</th>
-                                        <th>Lista 2</th>
-                                        <th>Lista 3</th>
+                                        <th>cidade</th>
+                                        <th>CPF/CNPJ 1</th>
                                         <th>Login</th>
                                         <th>Vis.</th>
                                         <th>Alt.</th>
                                         <th>Del.</th>
+                                        <th>Inat.</th>
+                                        <th>Div.</th>
+                                        <th>Imp. Dev</th>
+                                        <th>Imp. Dev</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -107,6 +92,8 @@
                                         <td>1</td>
                                         <td>1</td>
                                         <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                 </tbody>
