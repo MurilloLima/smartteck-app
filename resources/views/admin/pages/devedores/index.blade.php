@@ -23,7 +23,7 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                                Painel de busca
+                                Devedores
                             </h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="remove">
@@ -59,34 +59,33 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Contrato</label>
                                         <input type="text" class="form-control" id="exampleInputPassword1"
                                             placeholder="">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Unidade</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Telefone (Somente números)</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">CPF</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
