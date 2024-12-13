@@ -25,6 +25,11 @@
                             <h3 class="card-title">
                                 Cadastre pelo menos um e-mail para envio de notificações em seu nome
                             </h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-info"></i>
+                                </button>
+                            </div>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
