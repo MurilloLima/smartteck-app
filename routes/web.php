@@ -7,6 +7,7 @@ use App\Http\Controllers\admin\FinanceiroController;
 use App\Http\Controllers\admin\NotificacoesController;
 use App\Http\Controllers\admin\SuportController;
 use App\Http\Controllers\admin\UserController as AdminUserController;
+use App\Http\Controllers\MaladiretaController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SmtpController;
 use Illuminate\Support\Facades\Route;
@@ -40,7 +41,7 @@ Route::middleware('auth')->group(function () {
     // relatorio devedores inativo
     Route::get('/relatorio/devedores/inativos', [DevedoresController::class, 'inativo'])->name('relatorio.inativo');
     // mala direta
-    Route::get('/maladireta', [DevedoresController::class, 'index'])->name('maladireta.index');
+    Route::get('/maladireta', [MaladiretaController::class, 'index'])->name('maladireta.index');
     // notificacoes
     Route::get('/notificacoes', [NotificacoesController::class, 'index'])->name('notificacoes.index');
     // financeiro

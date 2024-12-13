@@ -12,7 +12,7 @@ class DevedoresController extends Controller
      */
     public function index()
     {
-        return view('admin.pages.maladireta.index');
+        return view('admin.pages.devedores.index');
     }
 
     /**
