@@ -132,11 +132,9 @@
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Sexo</label>
                                         <select class="custom-select rounded-0" id="">
-                                            <option>Solteiro(a)</option>
-                                            <option>Casado(a)</option>
-                                            <option>Divorciado</option>
-                                            <option>Viúvo</option>
-                                            <option>Separado juridicamente</option>
+                                            <option>feminino</option>
+                                            <option>Masculino</option>
+                                            <option>Não informado</option>
                                         </select>
                                     </div>
                                 </div>
@@ -144,55 +142,13 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">E-mail 4</label>
+                                        <label for="exampleInputPassword1">Celular</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">E-mail 4</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">RG</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">Data de nasciemnto</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">Estado civil</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">Sexo</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">Celular</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">Telefone fixo</label>
+                                        <label for="exampleInputPassword1">Telefone fixo</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
@@ -226,13 +182,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="">CEP</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-9">
                                     <div class="form-group">
                                         <label for="">Endereço</label>
                                         <input type="text" class="form-control" id="" placeholder="">
@@ -240,13 +196,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-2">
                                     <div class="form-group">
                                         <label for="">Número</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-10">
                                     <div class="form-group">
                                         <label for="">Complemento</label>
                                         <input type="text" class="form-control" id="" placeholder="">
@@ -268,22 +224,120 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="">Estado</label>
-                                        <input type="text" class="form-control" id="" placeholder="">
+                                        <select class="form-control  campo-estado-autocompletar" name="estado">
+                                            <option value=""></option>
+                                            <option value="AC">AC</option>
+                                            <option value="AL">AL</option>
+                                            <option value="AM">AM</option>
+                                            <option value="AP">AP</option>
+                                            <option value="BA">BA</option>
+                                            <option value="CE">CE</option>
+                                            <option value="DF">DF</option>
+                                            <option value="ES">ES</option>
+                                            <option value="GO">GO</option>
+                                            <option value="MA">MA</option>
+                                            <option value="MT">MT</option>
+                                            <option value="MS">MS</option>
+                                            <option value="MG">MG</option>
+                                            <option value="PA">PA</option>
+                                            <option value="PB">PB</option>
+                                            <option value="PR">PR</option>
+                                            <option value="PE">PE</option>
+                                            <option value="PI">PI</option>
+                                            <option value="RJ">RJ</option>
+                                            <option value="RN">RN</option>
+                                            <option value="RS">RS</option>
+                                            <option value="RO">RO</option>
+                                            <option value="RR">RR</option>
+                                            <option value="SC">SC</option>
+                                            <option value="SP">SP</option>
+                                            <option value="SE">SE</option>
+                                            <option value="TO">TO</option>
+                                        </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="">Nacionalidade</label>
                                         <input type="text" class="form-control" id="" placeholder="">
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="">Responsável legal (Se menor)</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="">Profissão</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="">Facebook</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="">Instagram</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label for="">Receber notificacoes do sistema</label>
+                                        <select class="custom-select rounded-0" id="">
+                                            <option>Sim</option>
+                                            <option>Não</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="">Receber notificacoes mala direta</label>
+                                        <select class="custom-select rounded-0" id="">
+                                            <option>Sim</option>
+                                            <option>Não</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <label for="">Nome da mãe</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label for="">Score de crédito</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="form-group">
+                                        <label for="">Observação</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-default">Pesquisar</button>
+                            <button type="submit" class="btn btn-default">Salvar</button>
                         </div>
                         <!-- /.card-body -->
                     </div>

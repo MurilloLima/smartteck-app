@@ -36,6 +36,9 @@ Route::middleware('auth')->group(function () {
     // devedores
     Route::get('/devedores', [DevedoresController::class, 'index'])->name('devedores.index');
     Route::get('/devedores/create', [DevedoresController::class, 'create'])->name('devedores.create');
+    // relatorio devedores inativo
+    Route::get('/relatorio/devedores/inativos', [DevedoresController::class, 'inativo'])->name('relatorio.inativo');
+
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
