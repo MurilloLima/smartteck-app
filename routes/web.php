@@ -7,6 +7,7 @@ use App\Http\Controllers\admin\FinanceiroController;
 use App\Http\Controllers\admin\SuportController;
 use App\Http\Controllers\admin\UserController as AdminUserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SmtpController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -18,6 +19,8 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
+    // smtp
+    Route::get('/smtp', [SmtpController::class, 'index'])->name('smtp.index');
     //consultores
     Route::get('/consultor', [ConsultoresController::class, 'index'])->name('consultores.index');
     //devedores
