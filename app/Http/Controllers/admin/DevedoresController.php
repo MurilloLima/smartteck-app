@@ -20,7 +20,7 @@ class DevedoresController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.pages.devedores.create');
     }
 
     /**

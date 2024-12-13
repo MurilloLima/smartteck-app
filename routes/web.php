@@ -24,7 +24,7 @@ Route::middleware('auth')->group(function () {
     //consultores
     Route::get('/consultor', [ConsultoresController::class, 'index'])->name('consultores.index');
     //devedores
-    Route::get('/devedores', [DevedoresController::class, 'index'])->name('devedores.index');
+    Route::get('/devedores', [DevedoresController::class, 'create'])->name('devedores.index');
     // financeiro
     Route::get('/financeiro', [FinanceiroController::class, 'index'])->name('financeiro.index');
     // credores
@@ -33,6 +33,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/user', [AdminUserController::class, 'index'])->name('user.index');
     // suporte
     Route::get('/suporte', [SuportController::class, 'index'])->name('suporte.index');
+    // devedores
+    Route::get('/devedores', [DevedoresController::class, 'index'])->name('devedores.index');
+    Route::get('/devedores/create', [DevedoresController::class, 'create'])->name('devedores.create');
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
