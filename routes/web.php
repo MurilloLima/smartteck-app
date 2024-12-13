@@ -4,6 +4,7 @@ use App\Http\Controllers\admin\ConsultoresController;
 use App\Http\Controllers\admin\CredoresController;
 use App\Http\Controllers\admin\DevedoresController;
 use App\Http\Controllers\admin\FinanceiroController;
+use App\Http\Controllers\admin\NotificacoesController;
 use App\Http\Controllers\admin\SuportController;
 use App\Http\Controllers\admin\UserController as AdminUserController;
 use App\Http\Controllers\ProfileController;
@@ -40,6 +41,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/relatorio/devedores/inativos', [DevedoresController::class, 'inativo'])->name('relatorio.inativo');
     // mala direta
     Route::get('/maladireta', [DevedoresController::class, 'index'])->name('maladireta.index');
+    // notificacoes
+    Route::get('/notificacoes', [NotificacoesController::class, 'index'])->name('notificacoes.index');
+    // financeiro
+    Route::get('/financeiro', [FinanceiroController::class, 'index'])->name('financeiro.index');
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

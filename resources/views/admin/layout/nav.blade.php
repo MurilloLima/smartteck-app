@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">
+                            <a href="{{ route('notificacoes.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Notificações</p>
                             </a>
@@ -83,7 +83,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ route('financeiro.index') }}" class="nav-link">
                         <i class="fa fa-usd nav-icon" aria-hidden="true"></i>
                         <p>
                             Financeiro
