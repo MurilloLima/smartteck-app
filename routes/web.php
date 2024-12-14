@@ -25,6 +25,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/smtp', [SmtpController::class, 'index'])->name('smtp.index');
     //consultores
     Route::get('/consultores', [ConsultoresController::class, 'index'])->name('consultores.index');
+    Route::get('/consultores/create', [ConsultoresController::class, 'create'])->name('consultores.create');
     //devedores
     Route::get('/devedores', [DevedoresController::class, 'create'])->name('devedores.index');
     // financeiro

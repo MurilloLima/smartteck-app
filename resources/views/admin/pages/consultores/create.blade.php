@@ -79,61 +79,6 @@
                 </div>
 
             </div>
-
-            <div class="row" style="margin-bottom: 10px">
-                <div class="col-md-12">
-                    <a href="" class="btn btn-primary">Adicionar</a>
-                    <a href="" class="btn btn-primary">Grupos</a>
-                    <a href="" class="btn btn-primary">Importar consultores</a>
-                    <a href="" class="btn btn-primary">Listas</a>
-                    <a href="" class="btn btn-primary">Relatorio de pausas</a>
-                    <a href="" class="btn btn-primary">Status do telefone</a>
-                    <a href="" class="btn btn-primary">Tipos de pausas</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <!-- /.card-header -->
-                        <div class="card-body p-0">
-                            <table class="table table-sm">
-                                <thead>
-                                    <tr>
-                                        <th style="width: 10px">#</th>
-                                        <th>Nome</th>
-                                        <th>Grupo</th>
-                                        <th>Lista 1</th>
-                                        <th>Lista 2</th>
-                                        <th>Lista 3</th>
-                                        <th>Login.</th>
-                                        <th>Vis.</th>
-                                        <th>Alt.</th>
-                                        <th>Del.</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>1.</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                </div>
-                <!-- /.col -->
-            </div>
         </div>
     </section>
 @endsection
