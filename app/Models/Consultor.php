@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Consultor extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'nome',
+        'telefone',
+        'especialidade',
+        'status',
+    ];
 }

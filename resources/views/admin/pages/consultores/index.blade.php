@@ -68,13 +68,29 @@
 
                             </div>
                         </div>
+
                         <div class="card-footer">
                             <button type="submit" class="btn btn-default">Pesquisar</button>
                         </div>
                         <!-- /.card-body -->
+
                     </div>
                 </div>
+
             </div>
+
+            <div class="row" style="margin-bottom: 10px">
+                <div class="col-md-12">
+                    <a href="" class="btn btn-primary">Adicionar</a>
+                    <a href="" class="btn btn-primary">Grupos</a>
+                    <a href="" class="btn btn-primary">Importar consultores</a>
+                    <a href="" class="btn btn-primary">Listas</a>
+                    <a href="" class="btn btn-primary">Relatorio de pausas</a>
+                    <a href="" class="btn btn-primary">Status do telefone</a>
+                    <a href="" class="btn btn-primary">Tipos de pausas</a>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
