@@ -82,7 +82,7 @@
 
             <div class="row" style="margin-bottom: 10px">
                 <div class="col-md-12">
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Adicionar</a>
+                    <a href="{{ route('consultores.create') }}" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Adicionar</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Grupos</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Importar consultores</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Listas</a>

@@ -23,7 +23,7 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                                Consultores
+                                Consultor
                             </h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="remove">
@@ -43,30 +43,34 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Telefone</label>
+                                        <label for="exampleInputPassword1">E-mail</label>
                                         <input type="text" class="form-control" id="exampleInputPassword1"
-                                        placeholder="">
+                                            placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Especialidade</label>
-                                        <input type="text" class="form-control" id="exampleInputPassword1"
-                                            placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Situação:</label>
+                                        <label for="exampleInputPassword1">Grupo</label>
                                         <select class="custom-select rounded-0" id="exampleSelectRounded0">
                                             <option>Ativo</option>
                                             <option>Inativo</option>
                                         </select>
                                     </div>
                                 </div>
-
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Telefone:</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Cidade:</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
