@@ -345,8 +345,8 @@
             </div>
             <div class="row">
                 <div class="card-body">
-                    <a href="" class="btn btn-primary">Adicionar</a>
-                    <a href="" class="btn btn-primary">Relatório de devedores
+                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Adicionar</a>
+                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Relatório de devedores
                         inativos</a>
                 </div>
             </div>

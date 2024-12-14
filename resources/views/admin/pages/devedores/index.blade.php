@@ -125,8 +125,10 @@
             </div>
             <div class="row">
                 <div class="card-body">
-                    <a href="{{ route('devedores.create') }}" class="btn btn-primary">Adicionar</a>
-                    <a href="{{ route('relatorio.inativo') }}" class="btn btn-primary">Relatório de devedores
+                    <a href="{{ route('devedores.create') }}" style="background-color: #D2670E; border-color: #D2670E;"
+                        class="btn btn-primary">Adicionar</a>
+                    <a href="{{ route('relatorio.inativo') }}" style="background-color: #D2670E; border-color: #D2670E;"
+                        class="btn btn-primary">Relatório de devedores
                         inativos</a>
                 </div>
             </div>

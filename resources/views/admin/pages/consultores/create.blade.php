@@ -1,16 +1,16 @@
 @extends('admin.layout.app')
-@section('title', 'Consultores')
+@section('title', 'Cadastrar consultor')
 @section('content')
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Consultores</h1>
+                    <h1>Cadastrar</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Consultores</li>
+                        <li class="breadcrumb-item active">Cadastrar</li>
                     </ol>
                 </div>
             </div>
@@ -82,13 +82,13 @@
 
             <div class="row" style="margin-bottom: 10px">
                 <div class="col-md-12">
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Adicionar</a>
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Grupos</a>
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Importar consultores</a>
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Listas</a>
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Relatorio de pausas</a>
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Status do telefone</a>
-                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Tipos de pausas</a>
+                    <a href="" class="btn btn-primary">Adicionar</a>
+                    <a href="" class="btn btn-primary">Grupos</a>
+                    <a href="" class="btn btn-primary">Importar consultores</a>
+                    <a href="" class="btn btn-primary">Listas</a>
+                    <a href="" class="btn btn-primary">Relatorio de pausas</a>
+                    <a href="" class="btn btn-primary">Status do telefone</a>
+                    <a href="" class="btn btn-primary">Tipos de pausas</a>
                 </div>
             </div>
 
