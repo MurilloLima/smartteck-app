@@ -1,16 +1,16 @@
 @extends('admin.layout.app')
-@section('title', 'Consultores')
+@section('title', 'Lista')
 @section('content')
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Consultores</h1>
+                    <h1>Lista</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Consultores</li>
+                        <li class="breadcrumb-item active">Lista</li>
                     </ol>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">
-                                Consultores
+                                Painel de busca
                             </h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="remove">
@@ -82,10 +82,10 @@
 
             <div class="row" style="margin-bottom: 10px">
                 <div class="col-md-12">
-                    <a href="{{ route('lista.create') }}" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Adicionar</a>
+                    <a href="{{ route('consultores.create') }}" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Adicionar</a>
                     <a href="{{ route('grupo.index') }}" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Grupos</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Importar consultores</a>
-                    <a href="{{ route('lista.index') }}" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Listas</a>
+                    <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Listas</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Relatorio de pausas</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Status do telefone</a>
                     <a href="" style="background-color: #D2670E; border-color: #D2670E;" class="btn btn-primary">Tipos de pausas</a>

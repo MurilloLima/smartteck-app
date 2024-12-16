@@ -4,9 +4,10 @@ use App\Http\Controllers\admin\ConsultoresController;
 use App\Http\Controllers\admin\CredoresController;
 use App\Http\Controllers\admin\DevedoresController;
 use App\Http\Controllers\admin\FinanceiroController;
+use App\Http\Controllers\admin\GrupoController;
+use App\Http\Controllers\admin\ListaController;
 use App\Http\Controllers\admin\NotificacoesController;
 use App\Http\Controllers\admin\SuportController;
-use App\Http\Controllers\admin\UserController as AdminUserController;
 use App\Http\Controllers\MaladiretaController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SmtpController;
@@ -26,6 +27,13 @@ Route::middleware('auth')->group(function () {
     //consultores
     Route::get('/consultores', [ConsultoresController::class, 'index'])->name('consultores.index');
     Route::get('/consultores/create', [ConsultoresController::class, 'create'])->name('consultores.create');
+    //grupos
+    Route::get('/consultores/grupo', [GrupoController::class, 'index'])->name('grupo.index');
+    Route::get('/consultores/grupo/create', [GrupoController::class, 'create'])->name('grupo.create');
+    //lista
+    Route::get('/consultores/lista', [ListaController::class, 'index'])->name('lista.index');
+    Route::get('/consultores/lista/create', [ListaController::class, 'create'])->name('lista.create');
+
     //devedores
     Route::get('/devedores', [DevedoresController::class, 'create'])->name('devedores.index');
     // financeiro
@@ -33,7 +41,7 @@ Route::middleware('auth')->group(function () {
     // credores
     Route::get('/creadores', [CredoresController::class, 'index'])->name('credor.index');
     // users
-    Route::get('/user', [AdminUserController::class, 'index'])->name('user.index');
+    Route::get('/user', [UserController::class, 'index'])->name('user.index');
     // suporte
     Route::get('/suporte', [SuportController::class, 'index'])->name('suporte.index');
     // devedores
