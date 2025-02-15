@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "smartteck-app",
+    "name": "Smartteck",
     "slug": "smartteck-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.murillo_lima.smartteckapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "47afa005-e378-4147-a68a-3071de1c920b"
+      }
     }
   }
 }
