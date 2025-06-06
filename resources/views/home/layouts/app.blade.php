@@ -6,76 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Smartteck</title>
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <!-- [Favicon] icon -->
-    <link rel="icon" href="{{ asset('home/assets/images/favicon.png') }}" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- [Font] Family -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <!-- [phosphor Icons] https://phosphoricons.com/ -->
-    <link rel="stylesheet" href="{{ asset('home/assets/fonts/phosphor/duotone/style.css') }}" />
-    <!-- [Tabler Icons] https://tablericons.com -->
-    <link rel="stylesheet" href="{{ asset('home/assets/fonts/tabler-icons.min.css') }}" />
-    <!-- [Feather Icons] https://feathericons.com -->
-    <link rel="stylesheet" href="{{ asset('home/assets/fonts/feather.css') }}" />
-    <!-- [Font Awesome Icons] https://fontawesome.com/icons -->
-    <link rel="stylesheet" href="{{ asset('home/assets/fonts/fontawesome.css') }}" />
-    <!-- [Material Icons] https://fonts.google.com/icons -->
-    <link rel="stylesheet" href="{{ asset('home/assets/fonts/material.css') }}" />
-    <!-- [Template CSS Files] -->
-    <link rel="stylesheet" href="{{ asset('home/assets/css/style.css') }}" id="main-style-link" />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
 
+    <link href="{{ asset('home/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('home/css/bootstrap-icons.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('home/css/owl.carousel.min.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('home/css/owl.theme.default.min.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('home/css/tooplate-gotto-job.css') }}" rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
 
     @include('home.layouts.nav')
     @yield('content')
     @include('home.layouts.footer')
 
-    <!-- Required Js -->
-    <script src="{{ asset('home/assets/js/plugins/simplebar.min.js') }}"></script>
-    <script src="{{ asset('home/assets/js/plugins/popper.min.js') }}"></script>
-    <script src="{{ asset('home/assets/js/icon/custom-icon.js') }}"></script>
-    <script src="{{ asset('home/assets/js/plugins/feather.min.js') }}"></script>
-    <script src="{{ asset('home/assets/js/component.js') }}"></script>
-    <script src="{{ asset('home/assets/js/theme.js') }}"></script>
-    <script src="{{ asset('home/assets/js/script.js') }}"></script>
-
-    <div class="floting-button fixed bottom-[50px] right-[30px] z-[1030]">
-    </div>
-
-
-    <script>
-        layout_change('false');
-    </script>
-
-
-    <script>
-        layout_theme_sidebar_change('dark');
-    </script>
-
-
-    <script>
-        change_box_container('false');
-    </script>
-
-    <script>
-        layout_caption_change('true');
-    </script>
-
-    <script>
-        layout_rtl_change('false');
-    </script>
-
-    <script>
-        preset_change('preset-1');
-    </script>
-
-    <script>
-        main_layout_change('vertical');
-    </script>
-
+    <!-- JAVASCRIPT FILES -->
+    <script src="{{ asset('home/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('home/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('home/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('home/js/counter.js') }}"></script>
+    <script src="{{ asset('home/js/custom.js') }}"></script>
 </body>
 
 </html>
