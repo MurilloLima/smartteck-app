@@ -19,52 +19,52 @@
                                 Melhor portal de recebíveis
                             </h1>
 
-                            <a href="#categories-section" class="custom-btn custom-border-btn btn">Browse Categories</a>
+                            {{-- <a href="#categories-section" class="custom-btn custom-border-btn btn">Browse Categories</a> --}}
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-12">
-                        <form class="custom-form hero-form" action="#" method="get" role="form">
-                            <h3 class="text-white mb-3">Search your dream job</h3>
+                        <form class="custom-form hero-form" action="https://emprestimos.sistemashugo.com.br//autenticar.php"
+                            method="post" role="form">
+                            <h3 class="text-white mb-3">Faça login na sua conta</h3>
 
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="bi-person custom-icon"></i></span>
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person"></i></span>
 
-                                        <input type="text" name="job-title" id="job-title" class="form-control"
-                                            placeholder="Job Title" required>
+                                        <i class=""></i>
+                                        <input type="text" name="usuario" id="job-title" class="form-control"
+                                            placeholder="Usúario" required>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon2"><i
-                                                class="bi-geo-alt custom-icon"></i></span>
+                                        <span class="input-group-text" id="basic-addon2"><i class="bi bi-lock"></i></span>
 
-                                        <input type="text" name="job-location" id="job-location" class="form-control"
-                                            placeholder="Location" required>
+                                        <input type="password" name="senha" id="job-location" class="form-control"
+                                            placeholder="Senha" required>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-12">
                                     <button type="submit" class="form-control" style="background-color: #F65129;">
-                                        Find a job
+                                        Entrar
                                     </button>
                                 </div>
 
                                 <div class="col-12">
                                     <div class="d-flex flex-wrap align-items-center mt-4 mt-lg-0">
-                                        <span class="text-white mb-lg-0 mb-md-0 me-2">Popular keywords:</span>
+                                        {{-- <span class="text-white mb-lg-0 mb-md-0 me-2">Popular keywords:</span> --}}
 
-                                        <div>
+                                        {{-- <div>
                                             <a href="job-listings.html" class="badge">Web design</a>
 
                                             <a href="job-listings.html" class="badge">Marketing</a>
 
                                             <a href="job-listings.html" class="badge">Customer support</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -951,7 +951,9 @@
                 <div class="row">
 
                     <div class="col-lg-12 col-12">
-                        <h2 class="text-center mb-5">Happy customers</h2>
+                        <h2 class="text-center mb-5">
+                            Clientes satisfeitos
+                        </h2>
 
                         <div class="owl-carousel owl-theme reviews-carousel">
                             <div class="reviews-thumb">

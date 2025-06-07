@@ -26,28 +26,39 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        data-bs-toggle="dropdown" aria-expanded="false">Serviços</a>
 
                     <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="job-listings.html">Job Listings</a></li>
-
-                        <li><a class="dropdown-item" href="job-details.html">Job Details</a></li>
+                        <li><a href="https://smartteck.adiantesa.com/" class="dropdown-item">Antecipação de
+                                Recebíveis</a></li>
+                        <li><a href="https://emprestimos.sistemashugo.com.br/painel/"
+                                class="dropdown-item">Administrador</a></li>
+                        <li><a href="https://smartteck.conectar.site/lojista/site/gerenciar"
+                                class="dropdown-item">Lojista</a></li>
+                        <li><a href="https://smartteck.conectar.site/convenio/site/gerenciar"
+                                class="dropdown-item">Clube de Benefícios</a></li>
+                        <li><a href="https://smartteck.conectar.site/corporativo/site/gerenciar"
+                                class="dropdown-item">Corporações</a></li>
+                        <li><a href="https://smartteck.conectar.site/pos/index.php/site/gerenciar"
+                                class="dropdown-item">Pos-web</a></li>
+                        <li><a href="https://smartteck.com.br/api" class="dropdown-item">Documentação API</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Notícias</a>
+                    <a class="nav-link" href="">Notícias</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="{{ route('home.pages.contact.index') }}">Contatos</a>
                 </li>
 
-                <li class="nav-item ms-lg-auto">
+                {{-- <li class="nav-item ms-lg-auto">
                     <a class="nav-link" href="#">Register</a>
-                </li>
+                </li> --}}
 
                 <li class="nav-item">
-                    <a class="nav-link custom-btn btn" href="#">Login</a>
+                    <a class="nav-link custom-btn btn" href="https://smartteck.com.br/cobrancas/acesso">Área do
+                        cliente</a>
                 </li>
             </ul>
         </div>

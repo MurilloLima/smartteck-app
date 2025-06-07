@@ -15,7 +15,7 @@ https://www.tooplate.com/view/2134-gotto-job
     --secondary-color: #0dcaf0;
     --section-bg-color: #f0f8ff;
     --custom-btn-bg-color: #f65129;
-    --social-icon-link-bg-color: #7f73eb;
+    --social-icon-link-bg-color: #F65129;
     --dark-color: #000000;
     --p-color: #717275;
     --border-color: #e9eaeb;
@@ -303,7 +303,7 @@ nav[aria-label="breadcrumb"] {
   CUSTOM TEXT BLOCK
 -----------------------------------------*/
 .custom-text-block {
-    background: var(--primary-color);
+    background: #f65129;
     padding: 80px 60px;
     height: 100%;
 }
@@ -1372,7 +1372,7 @@ nav[aria-label="breadcrumb"] {
 }
 
 .social-icon-link:hover {
-    background: var(--secondary-color);
+    /* background: var(--secondary-color); */
     color: var(--white-color);
     transform: scale(1.15);
 }
