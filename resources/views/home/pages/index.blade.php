@@ -12,9 +12,12 @@
 
                     <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                         <div class="hero-section-text mt-5">
-                            <h6 class="text-white">Are you looking for your dream job?</h6>
+                            {{-- <h6 class="text-white">Are you looking for your dream job?</h6> --}}
 
-                            <h1 class="hero-title text-white mt-4 mb-4">Online Platform. <br> Best Job portal</h1>
+                            <h1 class="hero-title text-white mt-4 mb-4">Plataforma on-line.
+                                <br>
+                                Melhor portal de recebíveis
+                            </h1>
 
                             <a href="#categories-section" class="custom-btn custom-border-btn btn">Browse Categories</a>
                         </div>
@@ -46,7 +49,7 @@
                                 </div>
 
                                 <div class="col-lg-12 col-12">
-                                    <button type="submit" class="form-control">
+                                    <button type="submit" class="form-control" style="background-color: #F65129;">
                                         Find a job
                                     </button>
                                 </div>
