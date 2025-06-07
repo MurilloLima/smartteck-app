@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Smartteck</title>
+    <title>Smartteck - @yield('title')</title>
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -23,6 +23,19 @@
     <link href="{{ asset('home/css/owl.theme.default.min.css') }}" rel="stylesheet">
 
     <link href="{{ asset('home/css/tooplate-gotto-job.css') }}" rel="stylesheet">
+
+    {{-- matas tags icon --}}
+    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.ico') }}" />
+    <link href="{{ asset('home/images/icon.ico') }}" rel="shortcut icon" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('home/images/icon.ico') }}" sizes="any" />
+    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.ico') }}" rel="icon" />
+    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.ico') }}" />
+    <meta property="og:image" itemprop="image" content="{{ asset('home/images/icon.ico') }}">
+    {{-- matas tags wt --}}
+    <meta property="og:site_name" content="Smartteck">
+    <meta property="og:title" content="">
+    {{-- <meta property="og:description" content="Programador Full Stack Senior"> --}}
+    <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
 </head>
 
 <body id="top">

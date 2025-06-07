@@ -1,6 +1,8 @@
 <main>
 
     @extends('home.layouts.app')
+    @section('title', 'Home')
+
     @section('content')
         <section class="hero-section d-flex justify-content-center align-items-center">
             <div class="section-overlay"></div>

@@ -91,12 +91,16 @@
             <div class="row">
 
                 <div class="col-lg-4 col-12 d-flex align-items-center">
-                    <p class="copyright-text">Copyright © Gotto Job 2048</p>
+                    <p class="copyright-text">Copyright © Smartteck 2025</p>
 
                     <ul class="footer-menu d-flex">
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy Policy</a></li>
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">
+                                Política de Privacidade
+                            </a>
+                        </li>
 
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Terms</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Termos</a></li>
                     </ul>
                 </div>
 
@@ -125,8 +129,8 @@
                 </div>
 
                 <div class="col-lg-3 col-12 mt-2 d-flex align-items-center mt-lg-0">
-                    <p>Design: <a class="sponsored-link" rel="sponsored" href="https://www.tooplate.com"
-                            target="_blank">Tooplate</a></p>
+                    <p><a class="sponsored-link" rel="sponsored" href="https://www.murillolimadev.com.br"
+                            target="_blank">Murillo Lima</a></p>
                 </div>
 
                 <a class="back-top-icon bi-arrow-up smoothscroll d-flex justify-content-center align-items-center"

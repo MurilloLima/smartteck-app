@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="images/logo.png" class="img-fluid logo-image">
+            <img src="{{ asset('home/images/50x50.png') }}" class="img-fluid logo-image">
 
-            <div class="d-flex flex-column">
-                <strong class="logo-text">Gotto</strong>
-                <small class="logo-slogan">Online Job Portal</small>
+            <div class="d-flex flex-column" style="text-align: center">
+                <strong class="logo-text" style="color: #000;">Smartteck</strong>
+                <small class="logo-slogan">Soluções inteligente</small>
             </div>
         </a>
 
@@ -17,11 +17,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav align-items-center ms-lg-5">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Homepage</a>
+                    <a class="nav-link active" href="index.html">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Gotto</a>
+                    <a class="nav-link" href="about.html">A Empresa</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -33,6 +33,9 @@
 
                         <li><a class="dropdown-item" href="job-details.html">Job Details</a></li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Notícias</a>
                 </li>
 
                 <li class="nav-item">
