@@ -227,7 +227,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-10">
-                        <h2 class="text-white mb-2">Obrigado por visitar nosso site.</h2>
+                        {{-- <h2 class="text-white mb-2">Obrigado por visitar nosso site.</h2> --}}
 
                         {{-- <p class="text-white">Gotto Job is a free HTML CSS template for job hunting related websites. This
                             layout is based on the famous Bootstrap 5 CSS framework. Thank you for visiting Tooplate
